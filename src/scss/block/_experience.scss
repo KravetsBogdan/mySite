@@ -1,0 +1,35 @@
+.experience {
+  &__title {
+    padding: 0 0 10px;
+  }
+
+  &__svg {
+    margin: 120px 0 0;
+  }
+
+  &__item {
+    border-bottom: 1px solid #e3e3e3;
+    padding: 0 0 30px;
+    margin: 0 0 30px;
+
+    &:last-child {
+      margin: 0;
+      padding: 0;
+      border: none;
+    }
+  }
+
+  &__item-title {
+    padding: 0 0 5px;
+  }
+
+  &__month {
+    display: block;
+    padding: 0 0 15px;
+  }
+
+  &__list-item {
+    list-style: circle;
+    padding: 0 0 10px;
+  }
+}

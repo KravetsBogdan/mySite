@@ -1,0 +1,35 @@
+.education {
+  &__title-holder {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  &__title-holder {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__title {
+    padding: 0 0 10px;
+  }
+
+  &__description {
+    max-width: 400px;
+  }
+
+  &__item {
+    border-bottom: 1px solid $grey;
+    padding: 0 0 30px;
+    margin: 0 0 30px;
+
+    &:last-child {
+      margin: 0;
+      padding: 0;
+      border: none;
+    }
+  }
+
+  &__item-title {
+    padding: 0 0 10px;
+  }
+}

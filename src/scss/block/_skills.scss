@@ -1,0 +1,39 @@
+.skills {
+  &__text-holder {
+    width: 60%;
+  }
+
+  &__title-holder {
+    width: 40%;
+  }
+
+  &__title {
+    padding: 0 0 17px;
+  }
+
+  &__description {
+    max-width: 400px;
+  }
+
+  &__svg {
+    margin: 120px 0 0;
+  }
+
+  &__text-holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__skill {
+    width: 50%;
+  }
+
+  &__skill-title {
+    padding: 0 0 5px;
+  }
+
+  &__list {
+    max-width: 150px;
+  }
+}

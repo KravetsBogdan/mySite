@@ -1,0 +1,79 @@
+.hello {
+  padding: 100px 0 40px;
+
+  &__text-holder,
+  &__img-holder {
+    width: 50%;
+  }
+
+  &__img-holder {
+    float: right;
+    text-align: center;
+  }
+
+  &__title {
+    padding: 0 0 10px;
+  }
+
+  &__text {
+    padding: 0 0 20px;
+  }
+
+  &__list-holder {
+    display: flex;
+    padding: 0 0 20px;
+  }
+
+  &__list {
+    padding: 0 40px 0 0;
+
+    &:last-child {
+      padding: 0;
+    }
+  }
+
+  &__item {
+    padding: 0 0 10px;
+
+    &:last-child {
+      padding: 0;
+    }
+  }
+
+  &__link {
+    color: $black;
+  }
+
+  &__contact-name {
+    display: block;
+    padding: 0 40px 0 0;
+  }
+
+  &__text-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__btn {
+    background-color: $blue;
+    text-transform: uppercase;
+    color: $white;
+    transition: all 0.3s ease;
+    width: 170px;
+    text-align: center;
+    padding: 15px;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+
+    &:hover {
+      box-shadow: 10px 10px 20px rgba(51, 51, 255);
+    }
+  }
+
+  &__img {
+    width: 455px;
+    height: 255px;
+  }
+}
